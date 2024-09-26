@@ -1,0 +1,99 @@
+
+:root {
+    --primary-color: #fccb61;
+    --secondary-color: #f0dacb;
+    --box-shadow: 2px 2px 4px rgba(150, 103, 17, 0.3);
+  }
+  
+  
+  body{
+    background-color: rgb(162, 187, 119);
+    margin-top:100px;
+   }
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 96px;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    opacity: 0.7;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  
+  
+  .primary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: rgb(24, 5, 5);
+  }
+  
+  
+  .about-paragraphs {
+    margin: 30px 0;
+  }
+  
+  .about-paragraphs p {
+    margin: 10px;
+  }
+  
+  .email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+
+
+
+@media (max-width: 600px) {
+    h1 {
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    .lego{ max-width: 20px;
+     height: auto;}
+    p,
+    .email-link {
+      font-size: 14px;
+    }
+    .primary-link {
+      font-size: 12px;
+      border-radius: 5px;
+      padding: 15px 10px;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: rgb(31, 9, 9);
+      border: 1px solid var(--primary-color);
+    }
+    
+  }
+  
